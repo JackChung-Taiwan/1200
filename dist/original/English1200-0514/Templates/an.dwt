@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="big5"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>an</title>
+<!-- TemplateEndEditable --> 
+<style type="text/css">
+<!--
+a:link {text-decoration: none; text-transform: none; }
+a:visited {text-decoration: none; text-transform: none; }
+a:active {text-decoration: none; text-transform: none; }
+a:hover {text-decoration: none; text-transform: none; }
+/* CSS created in part with the aid of 
+a Script Writer from http://CodeAve.com */
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+-->
+</script>
+<style type="text/css">
+<!--
+.letters {
+	border-left: 20px none #FFFFFF;
+	border-top: thin dotted #666666;
+	border-right: #330000;
+	border-bottom: thin none #FF0000;
+	background-color: #FFFFFF;
+}
+.table {
+	background-color: #FFFFFF;
+	border-top: thin dotted #333366;
+	border-right: thin none #333366;
+	border-bottom: thin solid #FF3300;
+	border-left: thin none #333366;
+}
+.down {
+	border-bottom: thin dotted #330033;
+	border-left: thin dotted #330033;
+	text-decoration: none;
+}
+.word {
+	font-size: x-large;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: blink;
+	color: #FFFFFF;
+}
+.word2 {
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #666666;
+}
+.main {
+	font-size: 18px;
+	font-style: normal;
+	line-height: 3px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	background-image: url(../photos/blackboard_main2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.vocabulary {
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: middle;
+	word-spacing: normal;
+	overflow: auto;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+}
+.word3 {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #000000;
+}
+.word4 {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	line-height: 13px;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #009933;
+	text-decoration: none;
+}
+.word5 {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body background="../photos/029.gif" text="#000000" link="#000000" vlink="#336600" alink="#FF0000" leftmargin="10" topmargin="10" marginwidth="0" marginheight="0" onload="MM_preloadImages('../photos/a3.gif','../photos/a2.gif','../photos/b3.gif','../photos/b2.gif','../photos/c3.gif','../photos/c2.gif','../photos/d3.gif','../photos/d2.gif','../photos/e3.gif','../photos/e2.gif','../photos/f3.gif','../photos/f2.gif','../photos/g3.gif','../photos/g2.gif','../photos/h3.gif','../photos/h2.gif','../photos/i3.gif','../photos/i2.gif','../photos/j3.gif','../photos/j2.gif','../photos/l3.gif','../photos/l2.gif','../photos/m3.gif','../photos/m2.gif','../photos/n3.gif','../photos/n2.gif','../photos/o3.gif','../photos/o2.gif','../photos/p3.gif','../photos/p2.gif','../photos/q3.gif','../photos/q2.gif','../photos/r3.gif','../photos/r2.gif','../photos/s3.gif','../photos/s2.gif','../photos/t3.gif','../photos/t2.gif','../photos/u3.gif','../photos/u2.gif','../photos/v3.gif','../photos/v2.gif','../photos/w3.gif','../photos/w2.gif','../photos/x3.gif','../photos/x2.gif','../photos/y3.gif','../photos/y2.gif','../photos/z3.gif','../photos/z2.gif','../photos/k3.gif','../photos/k2.gif')">
+<script language="JavaScript">
+<!--
+document.body.style.scrollbarBaseColor='#808080'
+document.body.style.scrollbarArrowColor='#808080'
+document.body.style.scrollbarDarkShadowColor='#FFFFFF'
+document.body.style.scrollbarFaceColor='#FFFFFF'
+document.body.style.scrollbarHighlightColor='#FFFFFF'
+
+-->
+</script>
+
+<table width="760" height="0" border="0" cellpadding="0" cellspacing="0" class="table">
+  <tr> 
+    <td height="98" colspan="3" background="../photos/029.gif"><img src="../photos/005.gif" width="96" height="96" /><img src="../photos/006.gif" width="96" height="96" align="top" /><img src="../photos/title.gif" width="568" height="96" /></td>
+  </tr>
+  <tr> 
+    <td width="77" height="34" align="right" valign="middle" bgcolor="#FFFFFF" class="letters"><img src="../photos/head1.gif" width="35" height="35" align="middle" /> 
+    </td>
+    <td width="64" align="center" valign="middle" bgcolor="#FFFFFF" class="letters"><img src="../photos/head2.gif" width="32" height="35" align="middle" /></td>
+    <td width="619" align="left" valign="middle" class="letters"> <table width="568" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="24" height="30"><a href="../letter_a/a_001.html" target="_top" onclick="MM_nbGroup('down','group1','a','../photos/a3.gif',1)" onmouseover="MM_nbGroup('over','a','../photos/a2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/a1.gif" alt="a" name="a" width="22" height="22" border="0" id="a" onload="" /></a></td>
+          <td width="24"><a href="../letter_b/b_001.html" target="_self" onclick="MM_nbGroup('down','group1','b','../photos/b3.gif',1)" onmouseover="MM_nbGroup('over','b','../photos/b2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/b1.gif" alt="b" name="b" width="22" height="22" border="0" id="b" onload="" /></a></td>
+          <td width="24"><a href="../letter_c/c_001.html" target="_self" onclick="MM_nbGroup('down','group1','c','../photos/c3.gif',1)" onmouseover="MM_nbGroup('over','c','../photos/c2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/c1.gif" alt="c" name="c" width="22" height="22" border="0" id="c" onload="" /></a></td>
+          <td width="24"><a href="../letter_d/d_001.html" target="_self" onclick="MM_nbGroup('down','group1','d','../photos/d3.gif',1)" onmouseover="MM_nbGroup('over','d','../photos/d2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/d1.gif" alt="d" name="d" width="22" height="22" border="0" id="d" onload="" /></a></td>
+          <td width="24"><a href="../letter_e/e_001.html" target="_self" onclick="MM_nbGroup('down','group1','e','../photos/e3.gif',1)" onmouseover="MM_nbGroup('over','e','../photos/e2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/e1.gif" alt="e" name="e" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_f/f_001.html" target="_self" onclick="MM_nbGroup('down','group1','f','../photos/f3.gif',1)" onmouseover="MM_nbGroup('over','f','../photos/f2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/f1.gif" alt="f" name="f" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_g/g_001.html" target="_self" onclick="MM_nbGroup('down','group1','g','../photos/g3.gif',1)" onmouseover="MM_nbGroup('over','g','../photos/g2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/g1.gif" alt="g" name="g" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_h/h_001.html" target="_self" onclick="MM_nbGroup('down','group1','h','../photos/h3.gif',1)" onmouseover="MM_nbGroup('over','h','../photos/h2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/h1.gif" alt="h" name="h" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_i/i_001.html" target="_self" onclick="MM_nbGroup('down','group1','i','../photos/i3.gif',1)" onmouseover="MM_nbGroup('over','i','../photos/i2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/i1.gif" alt="i" name="i" width="20" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_j/j_001.html" target="_self" onclick="MM_nbGroup('down','group1','j','../photos/j3.gif',1)" onmouseover="MM_nbGroup('over','j','../photos/j2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/j1.gif" alt="j" name="j" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_k/k_001.html" target="_self" onclick="MM_nbGroup('down','group1','k','../photos/k3.gif',1)" onmouseover="MM_nbGroup('over','k','../photos/k2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/k1.gif" alt="k" name="k" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_l/l_001.html" target="_self" onclick="MM_nbGroup('down','group1','l','../photos/l3.gif',1)" onmouseover="MM_nbGroup('over','l','../photos/l2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/l1.gif" alt="l" name="l" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_m/m_001.html" target="_self" onclick="MM_nbGroup('down','group1','m','../photos/m3.gif',1)" onmouseover="MM_nbGroup('over','m','../photos/m2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/m1.gif" alt="m" name="m" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_n/n_001.html" target="_self" onclick="MM_nbGroup('down','group1','n','../photos/n3.gif',1)" onmouseover="MM_nbGroup('over','n','../photos/n2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/n1.gif" alt="n" name="n" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_o/o_001.html" target="_self" onclick="MM_nbGroup('down','group1','o','../photos/o3.gif',1)" onmouseover="MM_nbGroup('over','o','../photos/o2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/o1.gif" alt="o" name="o" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_p/p_001.html" target="_self" onclick="MM_nbGroup('down','group1','p','../photos/p3.gif',1)" onmouseover="MM_nbGroup('over','p','../photos/p2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/p1.gif" alt="p" name="p" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_q/q_001.html" target="_self" onclick="MM_nbGroup('down','group1','q','../photos/q3.gif',1)" onmouseover="MM_nbGroup('over','q','../photos/q2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/q1.gif" alt="q" name="q" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_r/r_001.html" target="_self" onclick="MM_nbGroup('down','group1','r','../photos/r3.gif',1)" onmouseover="MM_nbGroup('over','r','../photos/r2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/r1.gif" alt="r" name="r" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_s/s_001.html" target="_self" onclick="MM_nbGroup('down','group1','s','../photos/s3.gif',1)" onmouseover="MM_nbGroup('over','s','../photos/s2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/s1.gif" alt="s" name="s" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_t/t_001.html" target="_self" onclick="MM_nbGroup('down','group1','t','../photos/t3.gif',1)" onmouseover="MM_nbGroup('over','t','../photos/t2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/t1.gif" alt="t" name="t" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_u/u_001.html" target="_self" onclick="MM_nbGroup('down','group1','u','../photos/u3.gif',1)" onmouseover="MM_nbGroup('over','u','../photos/u2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/u1.gif" alt="u" name="u" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_v/v_001.html" target="_self" onclick="MM_nbGroup('down','group1','v','../photos/v3.gif',1)" onmouseover="MM_nbGroup('over','v','../photos/v2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/v1.gif" alt="v" name="v" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_w/w_001.html" target="_self" onclick="MM_nbGroup('down','group1','w','../photos/w3.gif',1)" onmouseover="MM_nbGroup('over','w','../photos/w2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/w1.gif" alt="w" name="w" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_x/x_001.html" target="_self" onclick="MM_nbGroup('down','group1','x','../photos/x3.gif',1)" onmouseover="MM_nbGroup('over','x','../photos/x2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/x1.gif" alt="x" name="x" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="24"><a href="../letter_y/y_001.html" target="_self" onclick="MM_nbGroup('down','group1','y','../photos/y3.gif',1)" onmouseover="MM_nbGroup('over','y','../photos/y2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/y1.gif" alt="y" name="y" width="22" height="22" border="0" onload="" /></a></td>
+          <td width="22"><a href="../letter_z/z_001.html" target="_self" onclick="MM_nbGroup('down','group1','z','../photos/z3.gif',1)" onmouseover="MM_nbGroup('over','z','../photos/z2.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="../photos/z1.gif" alt="z" name="z" width="22" height="22" border="0" onload="" /></a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="760" height="330" border="0" cellpadding="0" cellspacing="0" background="../photos/019.gif" class="down">
+  <tr> 
+    <td width="96" height="262" align="right" valign="top"><!-- TemplateBeginEditable name="image" --><img src="../letter_a/images/aa1.gif" width="96" height="96" /><!-- TemplateEndEditable --></td>
+    <td width="184" align="left" valign="top"><!-- TemplateBeginEditable name="vocabulary" -->
+      <div id="Layer1" style="position:absolute; width:168px; height:317px; z-index:1; overflow: auto; left: 127px; top: 150px;" class="vocabulary"> 
+        <p>&nbsp;</p>
+        <p><a href="../letter_a/an.html" target="_self">a(an)</a></p>
+        <p><a href="../letter_a/a_few.html" target="_self">a few</a></p>
+        <p><a href="../letter_a/a_little.html" target="_self">a little</a></p>
+        <p><a href="../letter_a/a_lot.html" target="_self">a lot</a></p>
+        <p><a href="../letter_a/able.html" target="_self">able</a></p>
+        <p><a href="../letter_a/about.html" target="_self">about</a></p>
+        <p><a href="../letter_a/above.html" target="_self">above</a></p>
+        <p><a href="../letter_a/afraid.html" target="_self">afraid</a></p>
+        <p><a href="../letter_a/after.html" target="_self">after</a></p>
+        <p><a href="../letter_a/afternoon.html" target="_self">afternoon</a></p>
+        <p><a href="../letter_a/again.html" target="_self">again</a></p>
+        <p><a href="../letter_a/age.html" target="_self">age</a></p>
+        <p><a href="../letter_a/ago.html" target="_self">ago</a></p>
+        <p><a href="../letter_a/agree.html" target="_self">agree</a></p>
+        <p><a href="../letter_a/air.html" target="_self">air</a></p>
+        <p><a href="../letter_a/airplane.html" target="_self">airplane(plane)</a></p>
+        <p><a href="../letter_a/airport.html" target="_self">airport</a></p>
+        <p><a href="../letter_a/all.html" target="_self">all</a></p>
+        <p><a href="../letter_a/almost.html" target="_self">almost</a></p>
+        <p><a href="../letter_a/along.html" target="_self">along</a></p>
+        <p><a href="../letter_a/already.html" target="_self">alreay</a></p>
+        <p><a href="../letter_a/also.html" target="_self">also</a></p>
+        <p><a href="../letter_a/always.html" target="_self">always</a></p>
+        <p><a href="../letter_a/am.html" target="_self">a.m.</a></p>
+        <p><a href="../letter_a/america.html" target="_self">america</a></p>
+        <p><a href="../letter_a/american.html" target="_self">american</a></p>
+        <p><a href="../letter_a/and.html" target="_self">and</a></p>
+        <p><a href="../letter_a/angry.html" target="_self">angry</a></p>
+        <p><a href="../letter_a/animal.html" target="_self">animal</a></p>
+        <p><a href="../letter_a/another.html" target="_self">another</a></p>
+        <p><a href="../letter_a/answer.html" target="_self">answer</a></p>
+        <p><a href="../letter_a/any.html" target="_self">any</a></p>
+        <p><a href="../letter_a/anyone.html" target="_self">anyone(anybody)</a></p>
+        <p><a href="../letter_a/anything.html" target="_self">anything</a></p>
+        <p><a href="../letter_a/apartment.html" target="_self">apartment</a></p>
+        <p><a href="../letter_a/appear.html" target="_self">appear</a></p>
+        <p><a href="../letter_a/apple.html" target="_self">apple</a></p>
+        <p><a href="../letter_a/april.html" target="_self">April</a></p>
+        <p><a href="../letter_a/arm.html" target="_self">arm</a></p>
+        <p><a href="../letter_a/around.html" target="_self">around</a></p>
+        <p><a href="../letter_a/arrive.html" target="_self">arrive</a></p>
+        <p><a href="../letter_a/art.html" target="_self">art</a></p>
+        <p><a href="../letter_a/as.html" target="_self">as</a></p>
+        <p><a href="../letter_a/ask.html" target="_self">ask</a></p>
+        <p><a href="../letter_a/at.html" target="_self">at</a></p>
+        <p><a href="../letter_a/august.html" target="_self">August</a></p>
+        <p><a href="../letter_a/aunt.html" target="_self">aunt</a></p>
+        <p><a href="../letter_a/autumn.html" target="_self">autumn(fall)</a></p>
+        <p><a href="../letter_a/away.html" target="_self">away</a></p>
+        <p>&nbsp;</p>
+      </div>
+      <!-- TemplateEndEditable --></td>
+    <td width="477" align="left" valign="top" class="main"><!-- TemplateBeginEditable name="board" -->
+      <table width="478" height="255" border="0" align="left" cellpadding="0" cellspacing="0" class="word4">
+        <tr> 
+          <td height="10">&nbsp;</td>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="27" height="50">&nbsp;</td>
+          <td width="65" class="word3">a(an)</td>
+          <td width="60" height="50"><a href="../letter_a/sounds/an01.mp3"><img src="../letter_a/images/slide0002_image002.jpg" width="40" height="50" border="0" /></a></td>
+          <td width="300" height="50" class="word5">art. 一個</td>
+        </tr>
+        <tr class="word4"> 
+          <td>&nbsp;</td>
+          <td height="99" colspan="3"><font face="Arial, Helvetica, sans-serif"><a href="../letter_a/sounds/an02.mp3" onclick="document.all.music.filename='.mp3';return false" target="_blank">John 
+            is a high school teacher.</a><br />
+            <br />
+            John 是國中老師。 </font></td>
+        </tr>
+        <tr class="word4"> 
+          <td>&nbsp;</td>
+          <td height="86" colspan="3"><a href="../letter_a/sounds/an03.mp3">He 
+            has an English class at 16:00.</a><br /> <br />
+            他 16:00 有英語課。 </td>
+        </tr>
+        <tr> 
+          <td>&nbsp;</td>
+          <td height="10" colspan="3">&nbsp;</td>
+        </tr>
+      </table>
+      <!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+</body>
+</html>

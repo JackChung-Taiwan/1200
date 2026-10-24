@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="status" value="特別注意" />
+	<infoitem key="notes" value="1.標題是否正確&#xD;2.字母小圖是否正確&#xD;3.單字表及超連結是否正確&#xD;4.音標,句子音檔超連結是否正確&#xD;5.音標小圖的尺寸是：h50  ,要修改.&#xD;6.連結目標設 _self&#xD;7.先開新頁,存成預設的名稱,再連好超連結後轉存成預設的檔名&#xD;8.音檔要改名" />
+</info>

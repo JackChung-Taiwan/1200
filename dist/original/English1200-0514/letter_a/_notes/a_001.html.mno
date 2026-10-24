@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="status" value="特別注意" />
+	<infoitem key="notes" value="1.標題是否正確&#xD;2.字母小圖是否正確&#xD;3.單字表及超連結是否正確" />
+	<infoitem key="showOnOpen" value="true" />
+</info>

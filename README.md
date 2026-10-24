@@ -1,50 +1,81 @@
-# 英語單字花園｜English 1200
+# 英語單字花園
 
-繁體中文英語發音學習網站，供國小學生與教師使用。
+繁體中文英語發音學習網站，適合國小學生與教師。純 HTML、CSS、JavaScript，無須 API 金鑰、付費服務或套件安裝。
 
-> **部署狀態：** 目前先建立 GitHub Pages 發布設定。網站完整檔案（尤其 MP3、GIF 與原始教材）尚需由專案壓縮檔同步到此儲存庫；在 `dist/` 上傳完成之前，網站無法完整使用。
+## 開啟網站
 
-## 網站功能
+1. 將整個 ZIP 解壓縮（不要直接在壓縮檔裡開啟）。
+2. 雙擊 `開啟網站.html`，再按「進入單字花園」。也可以直接開啟 `dist/index.html`。
+3. 請保留完整資料夾結構，音檔與圖片都在 `dist/original/`。
 
-- A–Z 單字分類與搜尋
-- 1,171 筆原教材單字／片語與 1,277 組例句
-- 原教材單字、例句 MP3 播放與速度調整
-- 收藏、已學會、聽音選字、看英文選中文
-- 教師投影模式及手機響應式版型
-
-## 資料完整性
-
-原始教材名稱 `English1200-0514`。「1200」為原教材名稱，索引不是人工補成 1200 筆。完整專案含 5,360 個原始檔案，其中 MP3 共 2,468 個。音檔與原始內容須保留在 `dist/original/English1200-0514/`，請勿只提交網頁的 HTML。
-
-## 專案預期結構
-
-```text
-dist/
-  index.html
-  style.css
-  app.js
-  data.js
-  original/English1200-0514/...
-data/
-scripts/
-.github/workflows/deploy-pages.yml
-README.md
-```
-
-## GitHub Pages 發布
-
-1. 將原始專案資料夾 **English1200_Website_Project** 的內容提交到此儲存庫根目錄，不要再包一層資料夾。
-2. 確認 `dist/index.html` 與 `dist/original/` 存在，音檔圖片已一併提交。
-3. 前往 **Settings → Pages → Build and deployment → Source → GitHub Actions**。
-4. 推送到 `main` 後，網站將由工作流程自動發布 `dist/`。
-5. 站點預計網址：https://jackchung-taiwan.github.io/1200/
-
-## 本機測試
+若瀏覽器限制本機音檔或學習紀錄，安裝 Python 3 後，在專案資料夾執行：
 
 ```bash
 python -m http.server 8000 --directory dist
 ```
 
-瀏覽器開啟 http://localhost:8000。
+開啟 http://localhost:8000 。Windows 也可雙擊 `啟動本機網站.bat`。手機可使用已部署網站；直接開啟 HTML 的行為依手機瀏覽器而異。
 
-授權與公開發布前請確認原教材文字、圖片及錄音素材具有適當使用／散布權限。
+## 功能
+
+- A–Z 分類與英文、中文、例句搜尋，可組合字母與收藏篩選。
+- 單字發音、例句發音、0.5 / 0.75 / 1 / 1.25 / 1.5 倍速。
+- 原教材音標圖片、中文解釋、英文與中文例句。
+- 聽音選單字、看英文選中文；最多 10 題，即時回饋與錯題重聽。
+- 收藏、已學會紀錄、教師投影大字模式及響應式手機介面。
+- 同一時間只播放一段音檔；載入失敗、空結果與題庫不足均有提示。
+
+學習紀錄存於目前瀏覽器 localStorage，清除網站資料會移除紀錄，沒有跨裝置同步。測驗是單字理解及聽辨練習，不是自動口說評分。沒有新增錄音、帳號或語音辨識服務。
+
+## 資料來源與完整性
+
+原始檔案：English1200-0514.rar
+
+原始 RAR SHA-256：
+`63c05869561fa7c931e87352c1b99b59ca1a6c4f70d4aada7d0e6356aebed9b8`
+
+- 壓縮檔 5,456 個項目：5,360 個檔案、96 個資料夾。
+- 網站建立 1,171 筆單字／片語及 1,277 組例句索引。「1200」是原教材名稱，沒有補造至 1,200 筆。
+- X 分類無原始單字頁面，介面清楚顯示空狀態。
+- 原始 2,468 個 MP3 全數保留、全數完成 FFmpeg 解碼，未發現解碼錯誤。未逐段人工聽辨內容。
+- 原始 5,360 個檔案在 `dist/original/English1200-0514/`，位元組不變；包含舊 HTML、圖片、未使用音檔與其他備份素材。
+- `data/original-manifest.json` 記錄每個原檔路徑、大小及 SHA-256。
+- 文字從 CP950/Big5 原頁轉為 UTF-8，僅正規化排版空白。原教材文字錯字、詞性標記及舊地名不擅自修改。
+
+## 已處理的對應問題
+
+- 18 處音檔或圖片檔名大小寫差異：依唯一匹配的實體檔案修正新網站 URL，原檔不改。
+- URL 空白、括號、撇號等以標準 URL 編碼處理。
+- cheap 例句原連結指向 `cake.mp3`，疑似誤連：保留例句與原連結資訊，新介面停用該例句播放並顯示待核對提示。沒有猜用其他檔案。
+- have 第三組例句的中文譯文人名 Kim 被誤連到上一例句：將人名保留在中文譯文，播放只連到該組原有 `have03.mp3`。
+- 忽略空白或標點上的舊播放器連結；原始 HTML 與檢查紀錄仍保留。
+- 巢狀 U/V 備份頁與 `.htm` 副本不重複列入字庫；6 個 U 備份頁的可見文字與主頁不同，採直接位於 `letter_u/` 的主頁，差異全文寫入 `audit.json`。
+- 沒有被主頁引用的音檔不猜測用途，完整保留。
+
+## 專案結構
+
+- `dist/`：可直接部署的完整靜態網站。
+- `dist/index.html`、`style.css`、`app.js`：介面與互動。
+- `dist/data.js`：供網站本機直接載入的索引。
+- `data/vocabulary.json`：可重用的結構化單字資料。
+- `dist/audit.json`：解析統計、修正、備份差異、未引用音檔及忽略連結。
+- `dist/asset-map.json`：原始素材與網站 URL、SHA-256 的對照。
+- `data/verification.json`：文字、素材 URL 與原檔雜湊驗證結果。
+- `data/audio-verification.json`：全數 MP3 解碼驗證結果。
+- `scripts/build_index.py`：從原始教材重建資料，僅使用 Python 標準函式庫。
+- `scripts/verify.py`：原始檔案、文字保留及資產對應檢查；`--audio` 需 FFmpeg。
+
+## 重建與驗證
+
+```bash
+python scripts/build_index.py
+python scripts/verify.py
+# 選用：完整音檔解碼驗證，需要已安裝 FFmpeg
+python scripts/verify.py --audio
+```
+
+部署時將 `dist/` 全部上傳到靜態網站主機即可。主機須支援 MP3 與 GIF，並保留大小寫及原始目錄。網站自身不需要任何外部 CDN。
+
+## 線上發布的容量最佳化版本
+
+`dist/` 是完整離線版，所有原始教材位元組不變。另提供 `python scripts/build_hosted.py` 產生 `out/`，只包含網站所需素材，音檔採 gzip 無損封裝，播放時由瀏覽器還原成原始 MP3，沒有重新編碼或降低音質。`out/` 需透過 HTTP/HTTPS 使用，請使用支援 DecompressionStream 的新版瀏覽器。下載 ZIP 不重複放入衍生的 `out/`，執行建置腳本即可完整重現。

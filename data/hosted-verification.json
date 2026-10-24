@@ -1,0 +1,14 @@
+{
+  "files": 3627,
+  "expandedBytes": 261749369,
+  "limitBytes": 268435456,
+  "gzipMp3Files": 2452,
+  "assetBytesBefore": 268347320,
+  "assetBytesAfter": 260079620,
+  "validation": "Every gzip payload was decompressed and compared byte-for-byte with the original MP3.",
+  "browserChecks": [
+    "Gzip word playback reaches playing state",
+    "Gzip sentence playback at 0.75x reaches ended state",
+    "Listening quiz uses generic question label"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "indexedWords": 1171,
+  "exampleGroups": 1277,
+  "assetHashesVerified": 3621,
+  "sourceMp3Decoded": 2468,
+  "audioDecodeErrors": [],
+  "note": "驗證原始檔案與發布素材 SHA-256 一致，音檔以 FFmpeg 完整解碼；未逐段人工聽辨。"
+}

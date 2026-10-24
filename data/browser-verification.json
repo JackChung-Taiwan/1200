@@ -1,0 +1,18 @@
+{
+  "environment": "Chrome cloud browser; desktop and 390px iframe responsive viewport",
+  "checks": [
+    "Desktop layout visually inspected",
+    "390px mobile hero and word detail visually inspected",
+    "Original word MP3 plays after final asset URL conversion",
+    "Example playback and 0.75x selector exercised",
+    "Chinese keyword search returns word and example matches",
+    "Favorites and learned toggles persist across page reload",
+    "X category explicitly reports no source entries",
+    "cheap example audio disabled with mismatch explanation",
+    "Quiz fewer-than-four-options guard displays message",
+    "10-question listening quiz completes with correct score and wrong-answer review",
+    "Answer options lock after selection; question navigation works",
+    "New meaning quiz starts at question 1 with four choices"
+  ],
+  "limits": ["No exhaustive device/browser matrix", "Audio content not manually transcribed or reviewed"]
+}

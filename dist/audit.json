@@ -1,0 +1,1029 @@
+{
+  "sourceArchive": "English1200-0514.rar",
+  "sourceSha256": "63c05869561fa7c931e87352c1b99b59ca1a6c4f70d4aada7d0e6356aebed9b8",
+  "files": 5360,
+  "words": 1171,
+  "examples": 1277,
+  "mp3Files": 2468,
+  "referencedAssets": 3621,
+  "uniqueAssets": 3621,
+  "letterCounts": {
+    "A": 55,
+    "B": 94,
+    "C": 96,
+    "D": 51,
+    "E": 53,
+    "F": 72,
+    "G": 31,
+    "H": 56,
+    "I": 22,
+    "J": 13,
+    "K": 17,
+    "L": 52,
+    "M": 62,
+    "N": 32,
+    "O": 24,
+    "P": 67,
+    "Q": 5,
+    "R": 45,
+    "S": 152,
+    "T": 84,
+    "U": 14,
+    "V": 8,
+    "W": 58,
+    "Y": 7,
+    "Z": 1
+  },
+  "issues": [
+    {
+      "page": "letter_c/China.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/China.mp3",
+      "resolved": "letter_c/sounds/china.mp3"
+    },
+    {
+      "page": "letter_c/Coke.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/Coke.mp3",
+      "resolved": "letter_c/sounds/coke.mp3"
+    },
+    {
+      "page": "letter_c/Coke.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/Coke01.mp3",
+      "resolved": "letter_c/sounds/coke01.mp3"
+    },
+    {
+      "page": "letter_c/cheap.html",
+      "kind": "example_audio",
+      "status": "suspected_mismatch_disabled",
+      "reference": "sounds/cake.mp3"
+    },
+    {
+      "page": "letter_d/december.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/december.mp3",
+      "resolved": "letter_d/sounds/December.mp3"
+    },
+    {
+      "page": "letter_d/december.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/december01.mp3",
+      "resolved": "letter_d/sounds/December01.mp3"
+    },
+    {
+      "page": "letter_d/dr.html",
+      "kind": "phonetic_image",
+      "status": "case_corrected",
+      "reference": "images/dr.gif",
+      "resolved": "letter_d/images/Dr.gif"
+    },
+    {
+      "page": "letter_f/friday.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/friday.mp3",
+      "resolved": "letter_f/sounds/Friday.mp3"
+    },
+    {
+      "page": "letter_f/friday.html",
+      "kind": "phonetic_image",
+      "status": "case_corrected",
+      "reference": "images/friday.gif",
+      "resolved": "letter_f/images/Friday.gif"
+    },
+    {
+      "page": "letter_f/friend.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/friend01.mp3",
+      "resolved": "letter_f/sounds/Friend01.mp3"
+    },
+    {
+      "page": "letter_h/have.html",
+      "kind": "translation_audio_link",
+      "status": "removed_from_example_audio",
+      "reference": "sounds/have02.mp3",
+      "text": "Kim",
+      "reason": "中文翻譯中的人名誤連到上一例句；保留文字。"
+    },
+    {
+      "page": "letter_i/i.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/i.mp3",
+      "resolved": "letter_i/sounds/I.mp3"
+    },
+    {
+      "page": "letter_i/i.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/i01.mp3",
+      "resolved": "letter_i/sounds/I01.mp3"
+    },
+    {
+      "page": "letter_j/June.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/june.mp3",
+      "resolved": "letter_j/sounds/June.mp3"
+    },
+    {
+      "page": "letter_j/June.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/june01.mp3",
+      "resolved": "letter_j/sounds/June01.mp3"
+    },
+    {
+      "page": "letter_j/july.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/july.mp3",
+      "resolved": "letter_j/sounds/July.mp3"
+    },
+    {
+      "page": "letter_j/july.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/july01.mp3",
+      "resolved": "letter_j/sounds/July01.mp3"
+    },
+    {
+      "page": "letter_m/mark.html",
+      "kind": "phonetic_image",
+      "status": "case_corrected",
+      "reference": "images/Mark.gif",
+      "resolved": "letter_m/images/mark.gif"
+    },
+    {
+      "page": "letter_o/OK.html",
+      "kind": "word_audio",
+      "status": "case_corrected",
+      "reference": "sounds/OK.mp3",
+      "resolved": "letter_o/sounds/ok.mp3"
+    },
+    {
+      "page": "letter_o/OK.html",
+      "kind": "example_audio",
+      "status": "case_corrected",
+      "reference": "sounds/OK01.mp3",
+      "resolved": "letter_o/sounds/ok01.mp3"
+    }
+  ],
+  "excludedPages": [
+    "letter_a/a_001.html",
+    "letter_b/b_001.html",
+    "letter_c/c_001.html",
+    "letter_d/d_001.html",
+    "letter_e/e_001.html",
+    "letter_f/f_001.html",
+    "letter_g/g_001.html",
+    "letter_h/h_001.html",
+    "letter_i/i_001.html",
+    "letter_j/j_001.html",
+    "letter_k/k_001.html",
+    "letter_l/l_001.html",
+    "letter_m/m_001.html",
+    "letter_n/n_001.html",
+    "letter_o/o_001.html",
+    "letter_p/p_001.html",
+    "letter_q/q_001.html",
+    "letter_r/r_001.html",
+    "letter_s/s_001.html",
+    "letter_t/index.html",
+    "letter_t/t_001.html",
+    "letter_u/u_001.html",
+    "letter_v/v_001.html",
+    "letter_w/w_001.html",
+    "letter_x/x_001.html",
+    "letter_y/y_001.html",
+    "letter_z/z_001.html"
+  ],
+  "ignoredNonEnglishAudioLinks": [
+    {
+      "page": "letter_c/cake.html",
+      "text": "",
+      "audio": "sounds/cake01.mp3"
+    },
+    {
+      "page": "letter_l/light.html",
+      "text": "。",
+      "audio": "sounds/life01.mp3"
+    },
+    {
+      "page": "letter_m/major.htm",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_m/make.htm",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_m/man.htm",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_m/market.html",
+      "text": "",
+      "audio": "sounds/market.mp3"
+    },
+    {
+      "page": "letter_o/OK.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/October.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/off.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/off.html",
+      "text": ".",
+      "audio": "sounds/off02.mp3"
+    },
+    {
+      "page": "letter_o/office.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/officer.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/oil.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/old.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/on.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/on.html",
+      "text": "茶几上有一個杯子。",
+      "audio": "sounds/on.mp3"
+    },
+    {
+      "page": "letter_o/once.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/one.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/oneself.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/only.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/open.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/or.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/orange.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/other.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/out.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_o/own.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/PE.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/p.m..html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pack.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/package.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/page.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/paint.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pair.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pants.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/paper.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/parent.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/park.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/part.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/party.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pass.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/past.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pay.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pen.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pen.html",
+      "text": "這隻筆真的很貴。",
+      "audio": "sounds/pen.mp3"
+    },
+    {
+      "page": "letter_p/pencil.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/perhaps.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/person.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pet.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/photo.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/physics.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/piano.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pick.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/picnic.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/picture.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pie.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/piece.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pig.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pink.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pizza.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/place.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/place.html",
+      "text": "這地方太冷了。",
+      "audio": "sounds/place.mp3"
+    },
+    {
+      "page": "letter_p/plan.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/planet.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/play.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/player.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/playground.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/please.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pocket.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/point.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/police.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/polite.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/poor.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/popcorn.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/popular.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pork.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/possible.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/post office.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/postcard.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pound.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/powder.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/practice.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/prepare.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pretty.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/price.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/problem.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/professor.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/program.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/proud.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/public.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/pull.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/purple.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/push.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_p/put.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_q/queen.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_q/question.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_q/quick.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_q/quiet.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_q/quite.html",
+      "text": "",
+      "audio": "sounds/o'clock01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/USA.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/umbrella.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/uncle.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/under.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/understand.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/unhappy.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/uniform.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/university.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/until.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/up.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/upper.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/use.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/useful.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_u/images/letter_u/usually.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/Valentine.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/vacation.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/vegetable.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/vendor.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/very.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/video.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/visit.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_v/images/letter_v/voice.html",
+      "text": "",
+      "audio": "sounds/an01.mp3"
+    },
+    {
+      "page": "letter_w/watch.html",
+      "text": "你想看電視嗎？",
+      "audio": "sounds/watch01.mp3"
+    },
+    {
+      "page": "letter_w/we.html",
+      "text": "我們能打扮更美麗。",
+      "audio": "sounds/we03.mp3"
+    }
+  ],
+  "duplicatePageComparisons": [
+    {
+      "page": "letter_m/major.htm",
+      "canonical": "letter_m/major.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_m/make.htm",
+      "canonical": "letter_m/make.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_m/man.htm",
+      "canonical": "letter_m/man.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/USA.html",
+      "canonical": "letter_u/USA.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/u_001.html",
+      "canonical": "letter_u/u_001.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/umbrella.html",
+      "canonical": "letter_u/umbrella.html",
+      "sameVisibleContent": false,
+      "alternateText": "umbrella n. 雨傘 It's raining, but Lisa forgot to bring her umbrella. 現在下雨，但麗莎忘了帶她的雨傘。",
+      "canonicalText": "umbrella n. 雨傘 It's raining, but Lisa forgot to bring her umbrella. 下雨了，但麗莎忘了帶她的雨傘。"
+    },
+    {
+      "page": "letter_u/images/letter_u/uncle.html",
+      "canonical": "letter_u/uncle.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/under.html",
+      "canonical": "letter_u/under.html",
+      "sameVisibleContent": false,
+      "alternateText": "under prep. 在底下 Workers are sweating under the sun. 工人在太陽底下留著汗。",
+      "canonicalText": "under prep. 在底下 Workers are sweating under the sun. 工人在太陽下流著汗。"
+    },
+    {
+      "page": "letter_u/images/letter_u/understand.html",
+      "canonical": "letter_u/understand.html",
+      "sameVisibleContent": false,
+      "alternateText": "understand v. 了解 Can you understand this sentence? 你能瞭解這句子嗎？",
+      "canonicalText": "understand v. 了解 Can you understand this sentence? 你了解這句子的意思嗎？"
+    },
+    {
+      "page": "letter_u/images/letter_u/unhappy.html",
+      "canonical": "letter_u/unhappy.html",
+      "sameVisibleContent": false,
+      "alternateText": "unhappy adj. 不高興的 The little kitten seems unhappy to see you. 小貓看到你似乎不高興",
+      "canonicalText": "unhappy adj. 不高興的 The little kitten seems unhappy to see you. 小貓看到你似乎不高興。"
+    },
+    {
+      "page": "letter_u/images/letter_u/uniform.html",
+      "canonical": "letter_u/uniform.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/university.html",
+      "canonical": "letter_u/university.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/until.html",
+      "canonical": "letter_u/until.html",
+      "sameVisibleContent": false,
+      "alternateText": "until conj. 直到 I will not talk to you until you say sorry to me! 我不會跟你說話直到你",
+      "canonicalText": "until conj. 直到 I will not talk to you until you say sorry to me! 我不會跟你說話直到你對我說抱歉。"
+    },
+    {
+      "page": "letter_u/images/letter_u/up.html",
+      "canonical": "letter_u/up.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/upper.html",
+      "canonical": "letter_u/upper.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/use.html",
+      "canonical": "letter_u/use.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/useful.html",
+      "canonical": "letter_u/useful.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_u/images/letter_u/usually.html",
+      "canonical": "letter_u/usually.html",
+      "sameVisibleContent": false,
+      "alternateText": "usually adv. 經常 I usually look up new words in a dictionary. 我經常在字典中查閱新",
+      "canonicalText": "usually adv. 經常 I usually look up new words in a dictionary. 我經常在字典中查閱新字。"
+    },
+    {
+      "page": "letter_v/images/letter_v/Valentine.html",
+      "canonical": "letter_v/Valentine.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/v_001.html",
+      "canonical": "letter_v/v_001.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/vacation.html",
+      "canonical": "letter_v/vacation.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/vegetable.html",
+      "canonical": "letter_v/vegetable.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/vendor.html",
+      "canonical": "letter_v/vendor.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/very.html",
+      "canonical": "letter_v/very.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/video.html",
+      "canonical": "letter_v/video.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/visit.html",
+      "canonical": "letter_v/visit.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    },
+    {
+      "page": "letter_v/images/letter_v/voice.html",
+      "canonical": "letter_v/voice.html",
+      "sameVisibleContent": true,
+      "alternateText": null,
+      "canonicalText": null
+    }
+  ],
+  "unreferencedMp3": [
+    "letter_m/sounds/musenm.mp3",
+    "letter_m/sounds/musenm01.mp3",
+    "letter_f/sounds/funly01.mp3",
+    "letter_f/sounds/foreigh01.mp3",
+    "letter_f/sounds/funly02.mp3",
+    "letter_f/sounds/funly.mp3",
+    "letter_a/sounds/attention.mp3",
+    "letter_a/sounds/attention02.mp3",
+    "letter_a/sounds/attention01.mp3",
+    "letter_r/sounds/recoder.mp3",
+    "letter_r/sounds/recoder01.mp3",
+    "letter_s/sounds/sport01.mp3",
+    "letter_s/sounds/sport.mp3",
+    "letter_c/sounds/cheap01.mp3",
+    "letter_d/sounds/Dr..mp3",
+    "letter_d/sounds/Dr.01.mp3"
+  ]
+}
